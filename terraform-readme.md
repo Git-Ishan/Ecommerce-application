@@ -1,11 +1,5 @@
 # 🚀 Creating EKS, VPC & Remote Backend Resources on AWS using Terraform
 
-![Terraform](https://img.shields.io/badge/Terraform-IaC-5C4EE5?logo=terraform&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-Cloud-FF9900?logo=amazon-aws&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-EKS-326CE5?logo=kubernetes&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-CI%2FCD-2088FF?logo=github-actions&logoColor=white)
-![S3](https://img.shields.io/badge/AWS-S3-569A31?logo=amazons3&logoColor=white)
-![DynamoDB](https://img.shields.io/badge/AWS-DynamoDB-4053D6?logo=amazon-dynamodb&logoColor=white)
 
 ---
 
@@ -161,10 +155,11 @@ terraform apply
 
 ## 🔍 Verify EKS and VPC
 6) Confirm the EKS cluster is created in the AWS Console.
-<img width="1918" height="551" alt="image" src="https://github.com/user-attachments/assets/5f3898a6-04d2-4898-a979-d1ecc6ae3bfe" />
+<img width="798" height="200" alt="1" src="https://github.com/user-attachments/assets/34b238db-093f-4f39-a1ed-1bf4d5b96b08" />
 
 19) Confirm the VPC and networking components are created (VPC, subnets, route tables, IGW/NAT). +
-<img width="1919" height="912" alt="image" src="https://github.com/user-attachments/assets/450fc659-832f-4a7f-b2ac-a1e3322c3d98" />
+<img width="799" height="358" alt="2 " src="https://github.com/user-attachments/assets/02e57b4a-0ea2-4a52-a0b2-5d911c397eff" />
+
 
 ## 🧹 Cleanup
 To destroy all infrastructure and avoid ongoing charges:  
@@ -173,5 +168,4 @@ To destroy all infrastructure and avoid ongoing charges:
 ```
 
 
-## 🎉 Wrap-up
-With Terraform managing S3 (remote state), DynamoDB (state locking), EKS, and VPC, this repository demonstrates a production-ready, modular, and secure AWS foundation for the Ultimate DevOps Project Demo. Happy Terraforming! 🌱
+
