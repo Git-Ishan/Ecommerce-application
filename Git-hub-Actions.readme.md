@@ -101,5 +101,3 @@ so your Kubernetes cluster always points to the latest built image.
 - Eliminates manual image tagging and deployment steps  
 
 ---
-
-✅ With this setup, every PR ensures **production-ready builds**, and your Kubernetes cluster always runs the **latest tested image**.  
