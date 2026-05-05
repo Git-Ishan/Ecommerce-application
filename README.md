@@ -18,7 +18,7 @@ It leverages **Terraform** for AWS infrastructure provisioning, **GitHub Actions
 - **Amazon VPC (Virtual Private Cloud)**:  
   Provides secure VPC with public/private subnets, route tables, and isolated networking for security.  
 - **Amazon Route53**:  
-  Used for DNS and routing traffic to our domain (e.g., [https://iamnkdevopseng.shop](https://iamnkdevopseng.shop)).  
+  Used for DNS and routing traffic to our domain .  
 ---
 ### 2. 💻 Kubernetes Environment
 - **EKS Cluster**: Managed Kubernetes service for deploying and managing workloads.  
