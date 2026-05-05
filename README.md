@@ -109,7 +109,7 @@ Defines the pipeline with:
 - Code quality checks  
 - Kubernetes manifest updates
 
-📄 [Github Actions README →](https://github.com/I-am-nk/ultimate-devops-project-demo/blob/main/GitHub%20Actions%20Readme.md))
+📄 [Github Actions README →](https://github.com/Git-Ishan/Ecommerce-application/blob/main/Git-hub-Actions.readme.md))
 
 ---
 
