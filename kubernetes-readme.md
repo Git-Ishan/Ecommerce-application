@@ -1,6 +1,6 @@
-# 🚀 Deploying Application on EKS with Ingress & Route53 (GoDaddy Domain Integration)
+# 🚀 Deploying Application on EKS with Ingress 
 
-This guide explains how to connect an EC2 instance to your EKS cluster, deploy services, and configure a custom domain using Route53 with a GoDaddy domain.
+This guide explains how to connect an EC2 instance to your EKS cluster, deploy services, and configure a custom domain using Route53 
 
 ---
 
@@ -92,7 +92,8 @@ Replace `<your-region>` with the AWS region where your EKS cluster is located an
 <img width="1819" height="146" alt="image" src="https://github.com/user-attachments/assets/553c534c-38b7-4c0d-9dc0-7d00a97dd0a8" />
 
 ✅**Step 11 Verify whether the LoadBalancer is created in your AWS account.**
-<img width="1917" height="446" alt="image" src="https://github.com/user-attachments/assets/b749cc93-cf16-479f-86e1-fc5a23127645" />
+<img width="799" height="163" alt="3" src="https://github.com/user-attachments/assets/c0cb9b59-d120-4a92-ac6d-602384bc04c6" />
+
 
 ✅**Step 12 You can access the application with the LoadBalancer, but we will configure **Ingress** for better features.**
 <img width="1919" height="962" alt="image" src="https://github.com/user-attachments/assets/508f5c62-1a1c-45e7-96d5-4ebf65a67ea0" />
@@ -102,7 +103,7 @@ Replace `<your-region>` with the AWS region where your EKS cluster is located an
 ## 🌍 Ingress Setup
 We Need to do some configueration to run the ingress like ingress controller and other resources.
 
-# How to setup alb add on
+# Setup alb add on
 
 ##  Setup OIDC Connector
 
@@ -228,47 +229,7 @@ aws iam create-policy-version \
 
 ---
 
-## 🔑 Route53 & GoDaddy Setup
 
-✅ **Step 1: Create Hosted Zone in Route53**  
-- Go to **AWS Console → Route53**.  
-- Click **Hosted Zones → Create Hosted Zone**.  
-- Enter your domain name (e.g., `iamnkdevopseng.shop`).  
-- Type: **Public Hosted Zone**.  
-  - This will create **Name Servers (NS records)**.
-
----
-
-✅ **Step 2: Update Domain Name Servers in GoDaddy**  
-- Go to **GoDaddy → My Products → DNS Management** for your domain.  
-- Replace the existing **Nameservers** with the **Route53 NS records** from Step 1.  
-- Save → It may take **5–30 minutes** (sometimes up to 24 hrs) to propagate.  
-
----
-
-✅ **Step 3: Create DNS Record in Route53**  
-- Open your hosted zone in **Route53**.  
-- Click **Create Record → A Record**.  
-- Name: `www` (so it becomes `www.iamnkdevopseng.shop`).  
-  - **Alias: Yes**  
-  - **Alias target: Choose the LoadBalancer DNS** of your Ingress Controller (Nginx or ALB).  
-- Save the record.  
-
----
-
-✅ **Step 5: Test the Setup**  
-Run:
-```bash
-nslookup www.iamnkdevopseng.shop
-```
-It should resolve to the **AWS LoadBalancer IP/hostname**.
-
----
-
-## 🎉 Final Verification
-
-✅ Open your browser and go to:  
-👉 [www.iamnkdevopseng.shop](www.iamnkdevopseng.shop)  
 
 <img width="1917" height="977" alt="image" src="https://github.com/user-attachments/assets/2533d662-2f0e-40f9-9647-cd16867485b5" />
 
