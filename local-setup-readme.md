@@ -1,4 +1,4 @@
-# 🚀 Run Project Locally: Open Telemetry (Ultimate DevOps Project)
+# 🚀 Run Project Locally
 
 This guide walks you through setting up and running the Ultimate DevOps Project locally using Docker Compose on an AWS EC2 instance.
 
@@ -95,6 +95,4 @@ http://<EC2-PUBLIC-IP>:8080
 
 ---
 
-## ✅ You're all set!
-
-Enjoy running your full-fledged DevOps monitoring stack using Docker Compose, EC2, and OpenTelemetry!
+## All set
