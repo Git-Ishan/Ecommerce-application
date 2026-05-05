@@ -118,9 +118,3 @@ Defines the pipeline with:
 
 ---
 
-## 👨‍💻 Author
-**Nandkishor Khandare**  
-Cloud & DevOps / SRE Engineer  
-
-## 📬 **Contact**: 
-[LinkedIn](https://www.linkedin.com/in/nandkishor-khandare-616492215/) | [Email](nandkishor.k6e@gmail.com)
