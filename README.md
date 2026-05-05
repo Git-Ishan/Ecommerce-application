@@ -4,11 +4,6 @@
 This project demonstrates a comprehensive **end-to-end CI/CD infrastructure** for a containerized application.  
 It leverages **Terraform** for AWS infrastructure provisioning, **GitHub Actions** for continuous integration, and **ArgoCD** for GitOps-based continuous deployment on a Kubernetes cluster.
 
----
-[Project overview](https://github.com/I-am-nk/ultimate-devops-project-demo/blob/main/Project%20Overview.md)
-
----
-
 ## Project Architecture
 
 ![new1](https://github.com/user-attachments/assets/23c24930-9523-4a61-aea1-e01eae6553ef)
