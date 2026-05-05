@@ -99,7 +99,7 @@ Automates provisioning of:
 - Auto-syncs Kubernetes manifests from GitHub.  
 - Deploys the app to the EKS cluster continuously.  
 
-📄 [ArgoCD README →](./ArgoCD/README.md)
+📄 [ArgoCD README →](https://github.com/Git-Ishan/Ecommerce-application/blob/main/argo-cd-readme.md)
 
 ---
 ### 🛠️ GitHub Actions (CI/CD)
