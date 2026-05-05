@@ -1,12 +1,7 @@
-# 🚀 Argo CD on EKS via EC2 — Installation & CI/CD Setup Guide
+# 🚀 Argo CD on EKS via EC2 
 
-![AWS](https://img.shields.io/badge/AWS-EC2%20%7C%20EKS-FF9900?logo=amazon-aws&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-1.2x-326CE5?logo=kubernetes&logoColor=white)
-![ArgoCD](https://img.shields.io/badge/Argo%20CD-GitOps-EF7B4D?logo=argo&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?logo=github)
-![DevOps](https://img.shields.io/badge/Practice-GitOps%20%7C%20CI%2FCD-4CAF50)
 
-This guide installs and configures Argo CD on an AWS EC2 instance that has kubectl access to an Amazon EKS cluster. It also covers logging into the Argo CD UI and wiring up a GitHub repository for automated deployments.
+
 
 ---
 
@@ -150,7 +145,7 @@ Typical GitHub Actions stages that feed Argo CD:
 
 ---
 
-## 5) Useful kubectl Commands
+## 5)  kubectl Commands
 
 - Check Argo CD components:
     ```bash
@@ -208,8 +203,7 @@ Typical GitHub Actions stages that feed Argo CD:
 
 ---
 
-## 📎 Quick Reference (Copy-Friendly)
-
+## Reference 
 - Create namespace:
     ```bash
     kubectl create namespace argocd
