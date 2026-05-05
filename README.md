@@ -91,7 +91,7 @@ Automates provisioning of:
 - Service Account setup.  
 - Manifests are automatically updated by GitHub Actions.
 
-📄 [Kubernetes README →](./kubernetes/README.md)
+📄 [Kubernetes README →](https://github.com/Git-Ishan/Ecommerce-application/blob/main/kubernetes-readme.md)
  
   
   ---
