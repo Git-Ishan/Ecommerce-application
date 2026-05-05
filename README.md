@@ -83,7 +83,7 @@ Automates provisioning of:
 - Runs the project locally with a single `docker-compose.yml` file.  
 - Helps test the application before deploying.
 
-📄 [Docker Compose README](https://github.com/I-am-nk/ultimate-devops-project-demo/blob/main/local-setup-readme.md)
+📄 [Docker Compose README](https://github.com/Git-Ishan/Ecommerce-application/blob/main/local-setup-readme.md)
 
 ---
 ### ☸️ Kubernetes (Container Orchestration)
